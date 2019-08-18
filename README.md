@@ -30,7 +30,7 @@ Example response:
 }
 ```
 
-Get the Hong Kong weather inforamtion at: Get / weather
+Get the Hong Kong weather inforamtion at: Get / weather. Make sure you use the bearer token in the __Authorization Header__ : __Authorization: Bearer <token>__
 Example response:
 ```
 {
