@@ -21,7 +21,7 @@ npm start
 ```
 The application will run at: [http://localhost:3000](http://localhost:3000)
 
-Get a bearer access token at: POST / user/login
+Get a bearer access token at: POST /user/login  
 Example response: 
 ```
 {
@@ -30,7 +30,8 @@ Example response:
 }
 ```
 
-Get the Hong Kong weather inforamtion at: Get / weather. Make sure you are using the bearer token to make the request Authorization: Bearer <token>
+Get the Hong Kong weather inforamtion at: Get / weather. Make sure you are using the bearer token to make the request  
+> Authorization: Bearer <token>  
 Example response:
 ```
 {
