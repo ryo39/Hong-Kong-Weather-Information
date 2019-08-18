@@ -2,7 +2,7 @@
 This is a simple [Node.js](https://nodejs.org/en/) with [Typescript](https://www.typescriptlang.org/) API to get the weather inforamtion of Hong Kong using [OpenWeatherMap](https://openweathermap.org/).
 
 ### Prerequisites
-Make sure you have a MySQL database _weather_ running at port _3306_.
+Make sure you have a MySQL database __weather__ running at port _3306_.
 
 ### Installation
 Install the dependencies
