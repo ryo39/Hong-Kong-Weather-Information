@@ -1,10 +1,10 @@
 # Hong-Kong-Weather-Information
 This is a simple [Node.js](https://nodejs.org/en/) with [Typescript](https://www.typescriptlang.org/) API to get the weather inforamtion of Hong Kong using [OpenWeatherMap](https://openweathermap.org/).
 
-##Prerequisites
+###Prerequisites
 Make sure you have a MySQL database running at port _3306_.
 
-##Installation
+###Installation
 Install the dependencies.
 ```
 npm install
@@ -14,7 +14,7 @@ Create a weather table
 npm run migration
 ```
 
-##Quick Start
+###Quick Start
 Start the server
 ```
 npm start
@@ -78,7 +78,7 @@ Example response:
 }
 ```
 
-##Lint
+###Lint
 [Standard.js](https://standardjs.com/) with parser _@typescript-eslint/parser_ and plugin _@typescript-eslint/eslint-plugin_ are used to lint the application.
 
 Try the following command to do the auto-fix. Please note that there might be some warnings.
