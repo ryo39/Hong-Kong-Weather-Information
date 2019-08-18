@@ -1,0 +1,44 @@
+{
+  "name": "hong-kong-weather-information",
+  "version": "1.0.0",
+  "description": "A backend task of getting the HK weather information",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exce ts-node src/index.ts",
+    "migration": "./node_modules/.bin/ts-node ./node_modules/.bin/typeorm migration:run",
+    "standard:fix": "standard --fix src/**/*.ts",
+    "standard:lint": "standard src/**/*.ts"
+  },
+  "standard": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint/eslint-plugin"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.14.1",
+    "nodemon": "^1.19.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "0.2.18"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.0",
+    "@types/jsonwebtoken": "^8.3.3",
+    "@types/node": "^8.0.29",
+    "@types/passport": "^1.0.0",
+    "@types/passport-jwt": "^3.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "standard": "^13.1.0",
+    "ts-node": "3.3.0",
+    "typescript": "3.3.3333"
+  },
+  "author": "Ryo Yeung",
+  "license": "ISC"
+}
