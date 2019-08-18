@@ -5,7 +5,7 @@ This is a simple [Node.js](https://nodejs.org/en/) with [Typescript](https://www
 Make sure you have a MySQL database running at port _3306_.
 
 ### Installation
-Install the dependencies.
+Install the dependencies
 ```
 npm install
 ```
