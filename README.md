@@ -30,8 +30,7 @@ Example response:
 }
 ```
 
-Get the Hong Kong weather inforamtion at: Get / weather. Make sure you are using the bearer token to make the request  
-__Authorization: Bearer token__.  
+Get the Hong Kong weather inforamtion at: Get / weather. Make sure you are using the bearer token to make the request __Authorization: Bearer token__.  
 Example response:
 ```
 {
